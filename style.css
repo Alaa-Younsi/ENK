@@ -6,7 +6,6 @@
 html, body {  
     box-sizing: border-box;  
     margin: 0;
-    background-attachment: fixed;
     width: 100%;
 }
 
@@ -16,6 +15,7 @@ html, body {
     object-fit: cover;
     opacity: 0.7;
     position: fixed;
+    z-index: -1;
 }
 
 @media screen and (max-width: 600px) {
@@ -25,6 +25,7 @@ html, body {
         object-fit: cover;
         opacity: 0.7;
         position: fixed;
+        z-index: -1;
     }
 }
 
@@ -383,4 +384,4 @@ hr {
     background-color: #383838;
     position: absolute;
     top: 220%;
-}
+} 
