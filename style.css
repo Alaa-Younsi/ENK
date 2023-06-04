@@ -104,6 +104,7 @@ html, body {
     height: 45%;
     background-color: #ADD8E6;
     border-radius: 5%;
+    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858;
 }
 
 @media screen and (max-width: 600px) {
@@ -112,12 +113,8 @@ html, body {
         height: 30%;
         position: absolute;
         top: 20%;
-        left: 5%;
+        left: 5%;       
     }
-}
-
-#Main:hover {
-    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858;   
 }
 
 #Main-text {
@@ -290,6 +287,7 @@ hr {
     text-align: center;
     padding: 2% 5%;
     border-radius: 7%;
+    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858; 
 }
 
 @media screen and (max-width: 600px) {
@@ -297,10 +295,6 @@ hr {
         padding: 2% 5%;
         border-radius: 7%;
     }
-}
-
-.pre-section:hover {
-    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858;   
 }
 
 .image2 {
@@ -348,6 +342,7 @@ hr {
     height: 300px;
     margin: 50px 50px;
     box-shadow: 0.1px 0.1px 10px gray;
+    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858; 
 }  
 
 @media screen and (max-width: 600px) {
@@ -355,12 +350,7 @@ hr {
         width: 90%;
         height: 200px;
         margin: 30px 5%;
-        box-shadow: 0.1px 0.1px 10px gray, -0.1px -0.1px 10px gray;
     }  
-}
-
-.image3:hover {
-    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858;   
 }
 
 .image4 {
