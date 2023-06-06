@@ -1,0 +1,210 @@
+*,*:before,*:after {
+    display: flexbox;
+    box-sizing: inherit;
+}
+
+html, body {  
+    box-sizing: border-box;  
+    margin: 0;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#Accueil {
+    width: 8%;
+    height: 40px;
+    background-color: #ADD8E6;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px black;
+}
+
+@media screen and (max-width: 600px) {
+    #Accueil {
+        width: 30%;
+        height: 35px;
+        position: absolute;
+        top: 135%;
+        left: 17%;
+    }
+}
+
+#Inscription {
+    width: 8%;
+    height: 40px;
+    background-color: #FFB6C1;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px black;
+}
+
+@media screen and (max-width: 600px) {
+    #Inscription {
+        width: 30%;
+        height: 35px;
+        position: absolute;
+        top: 135%;
+        left: 52%;
+    }
+}
+
+button {
+    border: none;
+}
+
+.submit-button:hover, #Accueil:hover, #Inscription:hover {
+    background-color: white;
+}
+
+#Container {
+    width: 40%;
+    height: 970px;
+    margin: 8% auto 5% auto;
+    background-color: #FFA07A;
+    border-radius: 5%;
+    box-shadow: 0.01px 0.01px 20px #585858, -0.01px -0.01px 20px #585858; 
+    z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+    #Container {
+        width: 80%;
+        height: 770px;
+        margin: 15% auto 40% auto;
+        background-color: #FFA07A;
+        border-radius: 5%;
+    }   
+}
+
+#Up {
+    display: flex;
+    margin-bottom: -5%;
+}
+
+@media screen and (max-width: 600px) {
+    #Up {
+        display: flex;
+        margin-bottom: -7%;
+    }  
+}
+
+.main-image {
+    width: 30%;
+    height: 30%;
+    margin: 5% 5%;
+}
+
+.main-text {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10% -2%;
+    text-shadow: 1px 2px 4px black;
+    color: #303030;
+}
+
+@media screen and (max-width: 600px) {
+    .main-text {
+        font-size: 18px;
+    }  
+}
+
+@media screen and (min-width: 600px) {
+    .main-text {
+        font-size: 25px;
+    }  
+}
+
+@media screen and (min-width: 1200px) {
+    .main-text {
+        font-size: 30px;
+    }  
+}
+
+@media screen and (min-width: 1400px) {
+    .main-text {
+        font-size: 35px;
+    }  
+}
+
+.text1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #303030;
+}
+
+@media screen and (max-width: 600px) {
+    .text1 {
+        font-size: 22px;
+    }  
+}
+
+input, button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+  
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    width: 90%;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    margin-left: 5%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .form-control {
+        width: 90%;
+        height: 2.5rem;
+        padding: 0.5rem 1rem;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    } 
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+  
+.submit-button {
+    display: block;
+    width: 40%;
+    padding: 0.75rem;
+    background: yellow;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
