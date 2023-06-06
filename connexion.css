@@ -174,7 +174,7 @@ button {
     position: absolute;
     top: 5%;
     left: 8%;
-    border-radius: 2%;
+    border-radius: 10%;
     box-shadow: 2px 2px 5px black;
 }
 
@@ -195,7 +195,7 @@ button {
     position: absolute;
     top: 5%;
     left: 17%;
-    border-radius: 2%;
+    border-radius: 10%;
     box-shadow: 2px 2px 5px black;
 }
 
