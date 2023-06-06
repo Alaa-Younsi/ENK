@@ -70,7 +70,7 @@ html, body {
 
 @media screen and (max-width: 600px) {
     .main-text {
-        font-size: 20px;
+        font-size: 18px;
     }  
 }
 
@@ -104,19 +104,6 @@ html, body {
         font-size: 22px;
     }  
 }
-
-label {
-    align-items: center;
-    font-size: 25px;
-    margin-left: 5%;
-    margin-right: -5%;
-}
-
-@media screen and (max-width: 600px) {
-    label {
-        font-size: 20px;
-    }  
-}
   
 input, button {
     font-family: inherit;
@@ -134,7 +121,7 @@ button {
 }
 
 .form-control {
-    width: 82%;
+    width: 90%;
     height: 3rem;
     padding: 0.5rem 1rem;
     margin-left: 5%;
@@ -148,7 +135,7 @@ button {
 
 @media screen and (max-width: 600px) {
     .form-control {
-        width: 80%;
+        width: 90%;
         height: 2.5rem;
         padding: 0.5rem 1rem;
         color: #495057;
