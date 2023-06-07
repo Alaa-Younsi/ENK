@@ -570,7 +570,7 @@ hr {
 
 @media screen and (max-width: 600px) {
     #Footer {
-        height: 180px;
+        height: 190px;
         background-color: #484848;
         position: absolute;
         top: 290%;
@@ -578,14 +578,14 @@ hr {
 }
 
 .f-text {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: #A8A8A8;
 }
 
 @media screen and (max-width: 600px) {
     .f-text {
-        font-size: 12px;
+        font-size: 10px;
     }  
 }
 
@@ -604,7 +604,7 @@ hr {
     .fsec1 {
         width: 40%;
         margin-left: 5%;
-        margin-top: 1%;
+        margin-top: 1.5%;
     }
 }
 
@@ -618,7 +618,7 @@ hr {
     .fsec2 {
         width: 30%;
         margin-left: 2%;
-        margin-top: 1%;
+        margin-top: 1.5%;
     }
 }
 
@@ -632,7 +632,7 @@ hr {
     .fsec3{
         width: 20%;
         margin-left: 2%;
-        margin-top: 1%;
+        margin-top: 1.5%;
     }
 }
 
@@ -640,7 +640,6 @@ hr {
     font-size: 22px;
     color: white;
     font-weight: bold;
-    font-style: italic;
 }
 
 @media screen and (max-width: 600px) {
@@ -657,7 +656,7 @@ hr {
 
 @media screen and (max-width: 600px) {
     .f-text2 {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 
