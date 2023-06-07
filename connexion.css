@@ -176,6 +176,7 @@ button {
     left: 8%;
     border-radius: 10%;
     box-shadow: 2px 2px 5px black;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -197,6 +198,7 @@ button {
     left: 17%;
     border-radius: 10%;
     box-shadow: 2px 2px 5px black;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -208,3 +210,4 @@ button {
         left: 52%;
     }
 }
+
