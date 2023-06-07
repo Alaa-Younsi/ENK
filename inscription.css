@@ -30,6 +30,7 @@ html, body {
     left: 8%;
     border-radius: 10%;
     box-shadow: 2px 2px 5px black;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -37,7 +38,7 @@ html, body {
         width: 30%;
         height: 35px;
         position: absolute;
-        top: 135%;
+        top: 125%;
         left: 17%;
     }
 }
@@ -51,6 +52,7 @@ html, body {
     left: 17%;
     border-radius: 10%;
     box-shadow: 2px 2px 5px black;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -58,7 +60,7 @@ html, body {
         width: 30%;
         height: 35px;
         position: absolute;
-        top: 135%;
+        top: 125%;
         left: 52%;
     }
 }
@@ -73,7 +75,7 @@ button {
 
 #Container {
     width: 40%;
-    height: 970px;
+    height: 910px;
     margin: 8% auto 5% auto;
     background-color: #FFA07A;
     border-radius: 5%;
@@ -84,10 +86,9 @@ button {
 @media screen and (max-width: 600px) {
     #Container {
         width: 80%;
-        height: 770px;
-        margin: 15% auto 60% auto;
+        height: 720px;
+        margin: 15% auto 50% auto;
         background-color: #FFA07A;
-        border-radius: 5%;
     }   
 }
 
