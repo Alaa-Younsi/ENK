@@ -38,7 +38,7 @@ html, body {
         width: 30%;
         height: 35px;
         position: absolute;
-        top: 120%;
+        top: 140%;
         left: 17%;
     }
 }
@@ -60,7 +60,7 @@ html, body {
         width: 30%;
         height: 35px;
         position: absolute;
-        top: 120%;
+        top: 140%;
         left: 52%;
     }
 }
@@ -75,7 +75,7 @@ button {
 
 #Container {
     width: 40%;
-    height: 910px;
+    height: 980px;
     margin: 8% auto 5% auto;
     background-color: #FFA07A;
     border-radius: 5%;
@@ -86,7 +86,7 @@ button {
 @media screen and (max-width: 600px) {
     #Container {
         width: 80%;
-        height: 720px;
+        height: 780px;
         margin: 15% auto 50% auto;
         background-color: #FFA07A;
     }   
@@ -208,4 +208,9 @@ input, button {
     border-radius: 5px;
     margin-left: 30%;
     margin-top: 5%;
+}
+
+#select {
+    font-size: 16px;
+    color: gray;
 }
