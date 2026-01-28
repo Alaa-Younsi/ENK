@@ -1,94 +1,270 @@
-# École Nour El Karim - Website
+Ecole Nour El Karim - Website
+https://img.shields.io/badge/demo-live-brightgreen
+https://img.shields.io/badge/React-18.2-blue
+https://img.shields.io/badge/TypeScript-5.2-blue
+https://img.shields.io/badge/Tailwind-3.3-38B2AC
+https://img.shields.io/badge/Vite-5.0-646CFF
 
-Modern, responsive website for École Nour El Karim (ENK), a state-approved private school in Souidania, Alger.
+A modern, responsive school website for "Ecole Nour El Karim" rebuilt with React, TypeScript, and Tailwind CSS. This project transforms the original HTML/CSS/JavaScript website into a modern single-page application with enhanced performance and maintainability.
 
-## 🚀 Features
+https://enk-beta.vercel.app/images/enk-logo.png
 
-- **Modern Design**: Clean, professional interface with gradient accents
-- **Fully Responsive**: Optimized for mobile, tablet, and desktop devices
-- **Fast & Optimized**: Built with Vite and React for optimal performance
-- **Type-Safe**: Written in TypeScript
-- **Styled with Tailwind CSS**: Utility-first CSS framework for rapid development
+✨ Features
+Modern Stack: React 18 with TypeScript for type safety
 
-## 📋 Pages
+Responsive Design: Fully responsive across all device sizes
 
-- **Home Page**: Hero section, contact information, school presentation, and features
-- **Login Page**: Modern authentication interface for students/staff
-- **Registration Page**: Comprehensive enrollment form with validation
+Performance: Built with Vite for fast development and optimized builds
 
-## 🛠️ Technologies
+Styling: Tailwind CSS for utility-first styling
 
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **Vite** - Build tool
-- **React Router** - Client-side routing
-- **Tailwind CSS** - Styling
-- **PostCSS & Autoprefixer** - CSS processing
+Routing: React Router DOM for seamless navigation
 
-## 📦 Installation
+Interactive Forms: Form handling with React state management
 
-```bash
-# Install dependencies
+Smooth Animations: CSS transitions and fade effects
+
+Social Integration: Social media links and sharing
+
+Multi-language Support: French and Arabic language options
+
+🚀 Live Demo
+Visit the live website: https://enk-beta.vercel.app/
+
+📁 Project Structure
+text
+school-website/
+├── public/
+│   ├── images/          # All static images and assets
+│   └── favicon.ico
+├── src/
+│   ├── components/      # Reusable React components
+│   │   ├── Layout/     # Header, Footer, Navigation
+│   │   ├── Home/       # Homepage specific components
+│   │   ├── Auth/       # Login/Register forms
+│   │   └── common/     # Shared UI components
+│   ├── pages/          # Page components
+│   │   ├── HomePage.tsx
+│   │   ├── LoginPage.tsx
+│   │   └── RegisterPage.tsx
+│   ├── contexts/       # React contexts
+│   │   └── LanguageContext.tsx
+│   ├── types/          # TypeScript type definitions
+│   ├── utils/          # Utility functions
+│   ├── App.tsx         # Main app component with routing
+│   ├── main.tsx        # App entry point
+│   └── index.css       # Global styles and Tailwind imports
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+├── vite.config.ts
+└── index.html
+🛠️ Technologies Used
+React 18 - UI library
+
+TypeScript - Type safety
+
+Tailwind CSS - Styling framework
+
+Vite - Build tool and dev server
+
+React Router DOM - Client-side routing
+
+Font Awesome - Icons
+
+React Hook Form - Form handling (optional)
+
+📦 Installation
+Prerequisites
+Node.js 16+ and npm/yarn
+
+Setup Instructions
+Clone the repository
+
+bash
+git clone <repository-url>
+cd school-website
+Install dependencies
+
+bash
 npm install
+# or
+yarn install
+Add images to public directory
+Place all required images in public/images/:
 
-# Start development server
+enk-logo.png
+
+image1.jpg (background)
+
+enk1.jpg through enk5.jpg (filières)
+
+ghi maps copy.jpg (Google Maps)
+
+Any other images from the original project
+
+Start development server
+
+bash
 npm run dev
+# or
+yarn dev
+Build for production
 
-# Build for production
+bash
 npm run build
+# or
+yarn build
+🌐 Pages
+1. Homepage (/)
+School introduction and mission statement
 
-# Preview production build
-npm run preview
-```
+Contact information (address, phone, email)
 
-## 🌐 Development
+School presentation with animated sections
 
-The development server runs at `http://localhost:5173/`
+All available educational programs (filières)
 
-## 📱 Routes
+Social media links and Google Maps location
 
-- `/` - Home page
-- `/connexion` - Login page
-- `/inscription` - Registration page
+Multi-language support (French/Arabic)
 
-## 🎨 Color Scheme
+2. Login Page (/connexion)
+User authentication form
 
-- Primary Blue: `#2563eb`
-- Primary Purple: `#9333ea`
-- Light Blue: `#ADD8E6`
-- Primary Orange: `#FFA07A`
-- Primary Pink: `#FFB6C1`
+Email and password validation
 
-## 📄 License
+"Remember me" functionality
 
-© 2026 École Nour El Karim. All rights reserved.
+Links to registration and home
 
-## 📞 Contact
+3. Registration Page (/inscription)
+Complete student registration form
 
-- **Address**: 42 Rue El Nakhil, Souidania, Alger
-- **Phone**: 0669.70.49.83 / 0658.24.23.72 / 0698.25.25.34
-- **Email**: contact@enk-school.dz
+Personal information fields
 
-import reactDom from 'eslint-plugin-react-dom'
+Program selection (filières)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Contact details
+
+Password confirmation
+
+Form validation
+
+🎨 Design Features
+Responsive Breakpoints
+Mobile: < 600px
+
+Tablet: 600px - 900px
+
+Desktop: 900px - 1200px
+
+Large Desktop: > 1200px
+
+Color Scheme
+Primary: #FFA07A (Light Salmon)
+
+Secondary: #ADD8E6 (Light Blue)
+
+Accent: #FFB6C1 (Light Pink)
+
+Text: #303030 (Dark Gray)
+
+Background: Transparent with overlay
+
+Animations
+Smooth fade-in effects on page load
+
+Slide-down animations for main sections
+
+Hover effects on buttons and images
+
+Form focus states with transitions
+
+🔧 Customization
+Adding New Pages
+Create a new component in src/pages/
+
+Add route in App.tsx
+
+Update navigation in Header.tsx
+
+Modifying Styles
+Use Tailwind classes directly in components
+
+Custom utilities in tailwind.config.js
+
+Global styles in src/index.css
+
+Adding Languages
+Add translations in src/contexts/LanguageContext.tsx
+
+Update language selector component
+
+Use useLanguage hook in components
+
+📱 Responsive Design
+The website is fully responsive with:
+
+Mobile-first approach
+
+Flexible grid layouts
+
+Adjustable font sizes
+
+Responsive images
+
+Touch-friendly navigation
+
+🔗 Social Media Integration
+Facebook page link
+
+Instagram profile link
+
+LinkedIn (optional)
+
+Google Maps location
+
+🚀 Deployment
+The project is configured for easy deployment on:
+
+Vercel (Recommended)
+bash
+npm install -g vercel
+vercel
+Netlify
+Connect your Git repository
+
+Set build command: npm run build
+
+Set publish directory: dist
+
+GitHub Pages
+Update vite.config.ts base path
+
+Run npm run build
+
+Deploy dist folder to gh-pages branch
+
+📄 License
+This project is for educational purposes. All school-related content belongs to Ecole Nour El Karim.
+
+👥 Contributing
+Fork the repository
+
+Create a feature branch
+
+Commit your changes
+
+Push to the branch
+
+Open a Pull Request
+
+🙏 Acknowledgments
+Original design and content from Ecole Nour El Karim
+
+Font Awesome for icons
+
+Vite team for the amazing build tool
+
+React and Tailwind CSS communities
