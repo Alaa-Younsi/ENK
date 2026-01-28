@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .bg-image {
+    @apply w-full h-full object-cover opacity-70 fixed top-0 left-0 -z-10;
+  }
+  
+  .form-control {
+    @apply w-[90%] h-12 px-4 mx-[5%] text-gray-700 bg-white bg-clip-padding border border-gray-300 rounded transition-all duration-150 ease-in-out;
+  }
+  
+  .form-control:focus {
+    @apply border-blue-500 outline-none shadow-[0_0_0_0.2rem_rgba(0,123,255,0.25)];
+  }
+  
+  .submit-button {
+    @apply block w-[40%] py-3 bg-yellow-400 rounded mx-[30%] mt-5 font-bold hover:bg-white transition-colors duration-300;
+  }
+  
+  .nav-button {
+    @apply w-[10%] h-[50%] bg-primary-light font-bold text-black shadow-lg rounded-lg hover:bg-white transition-colors duration-300;
+  }
+  
+  .social-icon {
+    @apply p-2 text-2xl w-8 text-center no-underline my-5 mx-2 rounded-full;
+  }
+  
+  .social-icon.facebook {
+    @apply bg-[#3B5998] text-white;
+  }
+  
+  .social-icon.instagram {
+    @apply bg-[#125688] text-white;
+  }
+  
+  .social-icon.linkedin {
+    @apply bg-[#1E90FF] text-white;
+  }
+  
+  .section-card {
+    @apply bg-primary-light rounded-lg shadow-[0.01px_0.01px_20px_#585858,-0.01px_-0.01px_20px_#585858];
+  }
+  
+  .highlight-text {
+    @apply text-[#505050] italic font-bold text-xl;
+  }
+}
