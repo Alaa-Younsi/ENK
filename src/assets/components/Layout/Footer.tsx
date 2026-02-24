@@ -54,7 +54,7 @@ const Footer = () => {
               Alaa Younsi
             </a>
           </p>
-          <p>&copy; 2026 École Nour El Karim. Tous droits réservés.</p>
+          <p>&copy; 2023 École Nour El Karim. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
