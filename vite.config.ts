@@ -4,14 +4,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    // Minification
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
+    // Minification with esbuild (faster and included by default)
+    minify: 'esbuild',
     // Chunk splitting for better caching
     rollupOptions: {
       output: {
@@ -24,6 +18,10 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     // Source maps for production debugging (optional)
     sourcemap: false,
+  },
+  // Esbuild options for dropping console and debugger
+  esbuild: {
+    drop: ['console', 'debugger'],
   },
   // Performance optimizations
   server: {
