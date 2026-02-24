@@ -43,6 +43,17 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400 text-sm sm:text-base">
+          <p className="mb-2">
+            Website Created by{' '}
+            <a 
+              href="https://alaayounsi.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors font-semibold"
+            >
+              Alaa Younsi
+            </a>
+          </p>
           <p>&copy; 2026 École Nour El Karim. Tous droits réservés.</p>
         </div>
       </div>
