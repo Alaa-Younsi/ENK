@@ -230,7 +230,8 @@ npm run preview
 
 ## 📄 License
 
-This project is private and proprietary to École Nour El Karim.
+Copyright (c) 2026 ENK School. All rights reserved.
+This project is private and proprietary to École Nour El Karim. No part of this project may be copied, modified, or redistributed for any commercial or personal use without the express written permission of the author.
 
 
 - **Accessibility Checks** - WCAG compliance validation
