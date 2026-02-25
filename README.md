@@ -1,7 +1,22 @@
 # École Nour El Karim - Website
 
+## 🌟 Live Project
+
+**Agency Website:** [https://enk-school.vercel.app/](https://enk-school.vercel.app/)
+
 ## 📋 Project Overview
+
 **École Nour El Karim** is a modern, professional school website built with React and TypeScript. This responsive single-page application provides information about the school, allows prospective students to learn about the institution, and offers user authentication system for students and parents.
+
+### 📸 Screenshots
+
+![Homepage](./screenshots/homepage.png)
+![Services Section](./screenshots/services.png)
+![Blog Section](./screenshots/blog.png)
+![Homepage](./screenshots/phonehomepage.png)
+![Header Section](./screenshots/phoneheader.png)
+![Our Vision Section](./screenshots/visionphone.png)
+![Chat Bot Section](./screenshots/chatbotphone.png)
 
 ---
 
