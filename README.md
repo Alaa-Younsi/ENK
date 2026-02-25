@@ -156,38 +156,6 @@ ENK/
 
 ---
 
-## 🔧 Development Setup
-
-### **Prerequisites**
-- Node.js (v16+ recommended)
-- npm or yarn package manager
-
-### **Installation**
-```bash
-# Clone the repository
-git clone <repository-url>
-
-# Navigate to project directory
-cd ENK
-
-# Install dependencies
-npm install
-```
-
-### **Development Commands**
-```bash
-# Start development server (http://localhost:5173)
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
----
-
 ## 🎯 Routes
 
 | Path | Component | Description |
@@ -232,7 +200,6 @@ npm run preview
 
 Copyright (c) 2026 ENK School. All rights reserved.
 This project is private and proprietary to École Nour El Karim. No part of this project may be copied, modified, or redistributed for any commercial or personal use without the express written permission of the author.
-
 
 - **Accessibility Checks** - WCAG compliance validation
 
